@@ -1,11 +1,11 @@
 import js from '@eslint/js';
+import prettierConfig from 'eslint-config-prettier';
+import prettierPlugin from 'eslint-plugin-prettier';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import { globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
-import prettierPlugin from "eslint-plugin-prettier";
-import prettierConfig from "eslint-config-prettier";
 
 export default tseslint.config([
   globalIgnores(['dist']),
@@ -16,13 +16,14 @@ export default tseslint.config([
       tseslint.configs.recommended,
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
+      prettierConfig,
     ],
     plugins: {
       prettier: prettierPlugin,
     },
     rules: {
-      ...prettierConfig.rules,
       'prettier/prettier': 'error',
+      "@typescript-eslint/explicit-function-return-type": "error",
     },
     languageOptions: {
       ecmaVersion: 2020,
