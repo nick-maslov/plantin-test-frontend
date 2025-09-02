@@ -48,7 +48,7 @@ function StayTuned(): ReactElement {
       <MainContainer>
         <div
           className='relative  bg-green/[16%]  px-4  py-4  lg:pt-12  
-                     lg:pl-8  xl:pl-11  rounded-2xl  min-h-[270px]'
+                     lg:pl-8  xl:pl-11  rounded-2xl  lg:min-h-[270px]'
         >
           <H2 className='text-green  !font-extrabold  lg:text-3xl'>
             Stay always tuned with&nbsp;planting trends
@@ -60,8 +60,8 @@ function StayTuned(): ReactElement {
             <input
               id='search'
               className='bg-white  rounded-xl  px-4  pt-2  pb-2.5  w-full
-                placeholder:text-gray  placeholder:text-[14px]  lg:pt-3  lg:pb-3.5
-              focus:outline-none  focus:ring-2  focus:ring-green'
+                placeholder:text-gray  placeholder:text-sm  lg:placeholder:text-base
+                  lg:pt-3  lg:pb-3.5  focus:outline-none  focus:ring-2  focus:ring-green'
               placeholder='Search'
               type='text'
               value={searchQuery}

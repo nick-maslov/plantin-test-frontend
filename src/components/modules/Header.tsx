@@ -95,7 +95,7 @@ function Header(): ReactElement {
       </MainContainer>
       <div
         className={classNames(
-          'fixed  inset-0  bg-white  transition-transform  duration-300  lg:hidden',
+          'fixed  inset-0  z-50  bg-white  transition-transform  duration-300  lg:hidden',
           {
             'translate-x-[100vw]': !menuIsOpen,
           },
