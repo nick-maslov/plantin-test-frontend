@@ -10,10 +10,7 @@ function CrossIconBig({ onClick, className }: CloseIconProps): ReactElement {
   return (
     <div
       onClick={onClick}
-      className={classNames(
-        'relative  size-[17.67px]  cursor-pointer',
-        className,
-      )}
+      className={classNames('relative  size-[25px]  cursor-pointer', className)}
     >
       <div
         className='absolute  left-1/2  top-1/2  h-[2px]  w-[25px]  -translate-x-1/2
