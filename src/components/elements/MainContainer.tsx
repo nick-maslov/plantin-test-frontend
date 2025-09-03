@@ -11,7 +11,7 @@ function MainContainer({
   className,
 }: MainContainerProps): ReactElement {
   return (
-    <div className={classNames('max-w-[1180px]  px-4  mx-auto', className)}>
+    <div className={classNames('max-w-[1105px]  px-4  mx-auto', className)}>
       {children}
     </div>
   );

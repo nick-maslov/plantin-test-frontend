@@ -1,4 +1,5 @@
 import profileIcon from '@/assets/profile-icon.png';
+import profileIcon2x from '@/assets/profile-icon@2x.png';
 import type { ReactElement } from 'react';
 
 interface ProfileProps {
@@ -12,6 +13,7 @@ function ProfileIcon({ className }: ProfileProps): ReactElement {
       height={28}
       className={className}
       src={profileIcon}
+      srcSet={`${profileIcon2x} 2x`}
       alt='Profile Icon'
     />
   );

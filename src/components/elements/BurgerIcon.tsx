@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import type { MouseEventHandler, ReactElement } from 'react';
 
 interface BurgerProps {
@@ -7,9 +8,8 @@ interface BurgerProps {
 
 function BurgerIcon({ className, onClick }: BurgerProps): ReactElement {
   return (
-    <button onClick={onClick} className='p-2  -mr-2'>
+    <button onClick={onClick} className={classNames('p-2  -mr-2', className)}>
       <svg
-        className={className}
         width='18'
         height='12'
         viewBox='0 0 18 12'

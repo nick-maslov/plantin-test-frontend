@@ -23,7 +23,7 @@ export default tseslint.config([
     },
     rules: {
       'prettier/prettier': 'error',
-      "@typescript-eslint/explicit-function-return-type": "error",
+      '@typescript-eslint/explicit-function-return-type': 'error',
     },
     languageOptions: {
       ecmaVersion: 2020,

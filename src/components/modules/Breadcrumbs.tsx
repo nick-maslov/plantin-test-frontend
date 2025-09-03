@@ -10,11 +10,13 @@ function Breadcrumbs(): ReactElement {
           <li className='lg:hidden'>
             <BreadcrumbSeparator />
           </li>
-          <li className='text-gray  font-medium  cursor-pointer'>Home</li>
+          <li className='text-[#91A0B6]  font-medium  cursor-pointer'>Home</li>
           <li className='hidden  lg:block'>
             <BreadcrumbSeparator className='rotate-180' />
           </li>
-          <li className='text-gray  font-medium  hidden  lg:block'>Blog</li>
+          <li className='text-[#91A0B6]  font-medium  hidden  lg:block'>
+            Blog
+          </li>
         </ol>
       </MainContainer>
     </nav>
