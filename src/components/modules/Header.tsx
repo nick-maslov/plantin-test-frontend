@@ -139,7 +139,7 @@ function Header(): ReactElement {
           <Logo />
           <CrossIconBig onClick={handleCloseMenu} />
         </div>
-        <nav className='mt-12  pb-12'>
+        <nav className='my-20'>
           <ProfileIcon className='mx-auto  mb-6  size-[2.5rem]' />
           <ul className='flex  flex-col  gap-6'>
             <li className='font-medium  text-center  text-xl'>
