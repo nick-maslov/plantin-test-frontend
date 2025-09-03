@@ -20,7 +20,12 @@ function TopOfTheDay(): ReactElement {
         <p className='font-bold  text-[#91A0B6]  mt-2.5'>TOP OF THE DAY</p>
         <div className='mt-5  lg:gap-8  lg:flex  lg:justify-between'>
           <div>
-            <img className='rounded-2xl' src={article2Image} alt='Article 2' />
+            <img
+              className='rounded-2xl'
+              src={article2Image}
+              alt='Article 2'
+              loading='lazy'
+            />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
               <H2 className='mt-1  mb-2.5'>Professional Repot</H2>
@@ -33,7 +38,12 @@ function TopOfTheDay(): ReactElement {
             </div>
           </div>
           <div className='mt-8  lg:mt-0'>
-            <img className='rounded-2xl' src={article3Image} alt='Article 3' />
+            <img
+              className='rounded-2xl'
+              src={article3Image}
+              alt='Article 3'
+              loading='lazy'
+            />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
               <H2 className='mt-1  mb-2.5'>Professional Repot</H2>

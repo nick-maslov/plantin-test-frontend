@@ -27,6 +27,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article4Image}
               alt='Article 4'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -45,6 +46,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article5Image}
               alt='Article 5'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -63,6 +65,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article6Image}
               alt='Article 6'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -101,6 +104,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article4Image}
               alt='Article 4'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -119,6 +123,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article5Image}
               alt='Article 5'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -137,6 +142,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article6Image}
               alt='Article 6'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -169,7 +175,12 @@ function Interesting(): ReactElement {
           >
             Try For Free
           </button>
-          <img className='absolute  -right-4  -top-3' src={saly} alt='Saly' />
+          <img
+            className='absolute  -right-4  -top-3'
+            src={saly}
+            alt='Saly'
+            loading='lazy'
+          />
         </div>
         <ul
           className='hidden  mt-8  lg:grid  lg:grid-cols-3  lg:gap-x-8  lg:gap-y-12
@@ -180,6 +191,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article4Image}
               alt='Article 4'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -198,6 +210,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article5Image}
               alt='Article 5'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -215,6 +228,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article6Image}
               alt='Article 6'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -233,6 +247,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article4Image}
               alt='Article 4'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -251,6 +266,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article5Image}
               alt='Article 5'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
@@ -269,6 +285,7 @@ function Interesting(): ReactElement {
               className='rounded-2xl  w-full  max-w-[521px]'
               src={article6Image}
               alt='Article 6'
+              loading='lazy'
             />
             <div className='mt-4'>
               <p className='text-[#ADB8C8]'>Feb 23 · 8 min read</p>
