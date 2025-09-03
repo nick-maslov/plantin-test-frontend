@@ -92,9 +92,9 @@ function Interesting(): ReactElement {
             Get rid of&nbsp;limits and&nbsp;read everything you&nbsp;wish
           </p>
           <button
-            className='cursor-pointer  hover:bg-[#00A37D]  transition-colors
-                       w-full  mt-5  font-medium  bg-green  text-white  pt-2  
-                       pb-2.5  text-center  rounded-lg  sm:w-40'
+            className='cursor-pointer  hover:bg-[#00A37D]  active:bg-[#00A37D]
+                       transition-colors  w-full  mt-5  font-medium  bg-green
+                      text-white  pt-2  pb-2.5  text-center  rounded-lg  sm:w-40'
           >
             Try For Free
           </button>
@@ -170,9 +170,9 @@ function Interesting(): ReactElement {
             Get rid of&nbsp;limits and&nbsp;read everything you&nbsp;wish
           </p>
           <button
-            className='cursor-pointer  hover:bg-[#00A37D]  transition-colors
-                       w-full  mt-7  font-medium  bg-green  text-white  pt-2  
-                       pb-2.5  text-center  rounded-lg  sm:w-40'
+            className='cursor-pointer  hover:bg-[#00A37D]  active:bg-[#00A37D]
+                       transition-colors  w-full  mt-7  font-medium  bg-green
+                     text-white  pt-2  pb-2.5  text-center  rounded-lg  sm:w-40'
           >
             Try For Free
           </button>
