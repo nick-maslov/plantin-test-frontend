@@ -18,7 +18,7 @@ function Footer(): ReactElement {
           <li className='hidden  w-px  h-4  bg-[#A9B6C8]  md:block'></li>
           <li className='cursor-pointer'>Subscription Policy</li>
         </ul>
-        <p className='text-center  text-[#91A0B6]  mt-6  md:text-left  sm:mt-0'>
+        <p className='text-center  text-[#91A0B6]  mt-6  md:text-left  md:mt-0'>
           ©Copyright © 2025 PlantIn. <br className='lg:hidden' />
           All rights reserved
         </p>
