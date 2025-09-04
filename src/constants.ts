@@ -23,7 +23,7 @@ export const ARTICLES = [
     id: 3,
     title: 'Watering Mastery',
     preview:
-      'Repotting a plant can seem like a difficult task because a lot of things can go wrong – you can damage...',
+      'Watering mastery can seem like a tricky skill to develop because a lot of things can go wrong – you might overwater...',
     meta: 'Feb 23 · 8 min read',
     image: article3,
   },
