@@ -81,7 +81,7 @@ function Interesting(): ReactElement {
           </li>
         </ul>
         <div
-          className='relative  mt-8  bg-green/[16%]  px-4  py-5  lg:hidden 
+          className='relative  mt-8  bg-green/[16%]  px-4  pt-5  pb-6  lg:hidden 
                      rounded-2xl'
         >
           <Logo className='mb-4' />
